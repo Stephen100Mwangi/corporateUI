@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.element {
+    position: fixed;
+    top: 30%;
+    right: 0px;
+}
+
+*{
+    scroll-behavior: smooth;
+}
