@@ -3,9 +3,9 @@ import React from 'react'
 import data from '../components/Data'
 
 const Testimonials = () => {
-  console.log(data[0])
+  // console.log(data[0])
   return (
-    <div id='testimonials' className="flex space-x-10 justify-center overflow-clip my-24">
+    <div id='testimonials' className="flex space-x-10 justify-center pb-12 overflow-y-hidden overflow-scroll my-24 max-md:justify-start max-md:mx-2">
       {
         data.map((item) => (<div key={`${item.name}+1`} className="flex flex-col space-y-5 p-3 rounded-lg hover:bg-titles bg-slate-100 shadow-xl px-3 py-5 hover:text-white min-w-[240px]">
           <div><p>{item.message}</p></div>

@@ -123,7 +123,7 @@ const DashBoard = () => {
   }, [intervalTime]); // Runs on component mount and when intervalTime changes
 
   return (
-    <div className='my-24 mx-8 flex justify-end px-4 py-16 rounded-2xl bg-titles text-white'>
+    <div className='my-24 mx-8 flex flex-row justify-end px-4 py-16 rounded-2xl bg-titles text-white max-md:flex-col max-md:space-y-10 max-md:mx-4'>
       <Customers text="Happy Clients" count={counters.happyClients} dataVal={120} icon={<TbLetterK />} />
       <Customers text="Various Services" count={counters.variousServices} dataVal={13} icon={<FaPlus />} />
       <Customers text="Complete Project" count={counters.completeProjects} dataVal={20} icon={<FaPlus />} />

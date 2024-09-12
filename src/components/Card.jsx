@@ -6,7 +6,7 @@ const Card = ({text,title,description}) => {
   return (
     <div className='flex flex-col space-y-5'>
         <p className='text-lg font-medium text-titles'>{text}</p>
-        <h1 className='text-6xl font-bold leading-tight'>{title}</h1>
+        <h1 className='text-6xl font-bold leading-tight max-md:text-4xl'>{title}</h1>
         <p className='text-lg font-light'>{description}</p>
       
     </div>

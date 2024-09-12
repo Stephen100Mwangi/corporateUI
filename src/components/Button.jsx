@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 
 const Button = ({color, text,p_color,t_color}) => {
   return (
-    <button className={`bg-${color} hover:bg-${p_color} text-${t_color} rounded-full px-9 py-3 flex items-center text-white font-medium justify-center hover:shadow-lg`}>
+    <button className={`bg-${color} hover:bg-${p_color} text-${t_color} z-50 text-center rounded-full px-9 py-3 flex items-center text-white font-medium max-md:min-w-fit justify-center hover:shadow-lg max-md:text-sm`}>
       {text}
     </button>
   )

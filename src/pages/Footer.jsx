@@ -34,9 +34,9 @@ const Footer = () => {
                 <p className=' font-light text-base'>P O.BOX 890 -8923 Nairobi</p>
             </div>
         </div>
-        <div className="flex flex-row justify-between max-md:flex-col max-md:space-y-5 max-md:justify-center">
+        <div className="flex flex-row justify-between max-md:flex-col max-md:space-y-5 max-md:justify-center max-md:items-center">
             <div className="copyright w-1/2 flex justify-center items-center max-md:w-full max-md:leading-loose">
-                <div><AiOutlineCopyrightCircle /></div>
+                <div className='max-md:hidden'><AiOutlineCopyrightCircle /></div>
                 <p>2024 App Landing - Phlox Elementary WordPress Theme . All rights reserved.</p>
             </div>
             <div className="socials flex space-x-3">
