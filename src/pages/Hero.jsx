@@ -26,7 +26,7 @@ const Hero = () => {
             </div>
         </div>
         <div className='w-1/2 relative overflow-x-clip max-md:w-full'>
-          <motion.img src="./hero.png"
+          <motion.img loading='lazy' src="./hero.png"
             className='absolute -right-20 -top-36 scale-150 max-md:relative z-10 max-md:scale-150'
               initial={{
                 rotate:"0deg",

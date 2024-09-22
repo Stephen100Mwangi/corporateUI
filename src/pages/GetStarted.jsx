@@ -16,7 +16,7 @@ const GetStarted = () => {
             </div>
         </div>
         <div className="w-1/2 relative max-md:w-full">
-            <motion.img src="./about.png" alt="" 
+            <motion.img loading="lazy" src="./about.png" alt="" 
               className='absolute -top-28 max-md:relative max-md:scale-25'
 
               initial ={{

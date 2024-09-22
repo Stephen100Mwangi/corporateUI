@@ -11,7 +11,7 @@ const Testimonials = () => {
           <div><p>{item.message}</p></div>
           <div className ="flex flex-row space-x-5">
             <div className="rounded-full size-16 shadow-xl">
-              <img src={item.photo} className="object-cover size-16 rounded-full " />
+              <img loading='lazy' src={item.photo} className="object-cover size-16 rounded-full " />
             </div>
             <div className="flex flex-col space-y-3">
               <p className="font-medium">{item.name}</p>

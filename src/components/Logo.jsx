@@ -4,7 +4,7 @@ import React from 'react'
 const Logo = () => {
   return (
     <div>
-      <img src="src/assets/logo.png" alt="" />
+      <img loading="lazy" src="src/assets/logo.png" alt="" />
       
     </div>
   )
